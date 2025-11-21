@@ -1,0 +1,34 @@
+html
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Painel do Estagiário</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Sistema de Estágio</h1>
+    <nav>
+      <button onclick="mostrarSecao('atividades')">Atividades</button>
+      <button onclick="mostrarSecao('avaliacoes')">Avaliações</button>
+      <button onclick="logout()">Sair</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="atividades" class="secao">
+      <h2>Atividades</h2>
+      <p>Aqui o estagiário poderá ver ou registrar atividades.</p>
+      <!-- Conteúdo futuro -->
+    </section>
+    <section id="avaliacoes" class="secao" style="display:none;">
+      <h2>Avaliações</h2>
+      <p>Avaliações de desempenho realizadas pelo supervisor.</p>
+      <!-- Conteúdo futuro -->
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
